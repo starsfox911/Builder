@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./libs/jquery/mytheme/jquery-ui.css">
+    <link rel="icon" href="./img/ico/favicon.ico" type="image/x-icon">
+    <title>Builder</title>
+</head>
+<body onload="go()">
+  <canvas id="circle" style="z-index: 5; width: 100vw; height: 100vh; position: fixed;left: 0;
+  right: 0; top: 0; bottom: 0; background-color: black;"></canvas>
+  <div class="main_block">
+ 
+
+    <div class="menu">
+      <div class="menu_link">
+        <div class="link"> <a href="index.html">Главная</a> </div>
+        <div class="link"><a href="account.html">Услуги</a></div>
+        <div class="link"><a href="gallery.html">Галерея</a></div>
+        <div div class="link"> <a href="tel:+0955432532">050-808-88-88</a> </div>
+        <div div class="link" id="form_tg"><a href="#form">Обратная связь</a> </div>
+      </div>
+    </div>
+     
+   
+    <div id="video"></div>
+   
+ 
+      <div  id="mid" class="mid"> 
+        <div class="tagline">
+          <p>Построим</p>
+          <p>Вашу мечту </p>
+          <p>вместе</p>
+        </div>
+        <div class="coment">
+          <p>Строительная фирма "Вайленд-Ютони" предлагает свои услуги по строительству 
+            домов в Киеве и Украине. Мы ценим каждого своего клиента и максимально точно воплощаем в 
+            реальность его пожелания относительно строительства</p>
+
+        </div>
+      </div> 
+    
+
+<!--  чем занимаеться whatdo -->
+      <div class="whatdo_block">
+        <!-- карточка 1 -->
+        <div class="whatdo_item_main">
+          <div class="whatdo_item">
+            <div class="whatdo_item_ico"> <img class="ico" src="./img/ico/t1.png" alt=""></div>
+            <h4>Строительство любых сложностей</h4>
+            <br>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Repellendus dicta eum cumque perferendis sit
+            </p>       
+          </div> 
+        </div>
+         <!-- карточка 2 -->
+         <div class="whatdo_item_main">
+          <div class="whatdo_item">
+            <div class="whatdo_item_ico"><img class="ico" src="./img/ico/t2.png" alt=""></div>
+            <h4>Ремонт</h4>
+            <br>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Repellendus dicta eum cumque perferendis sit
+            </p>
+
+          </div> 
+        </div>
+         <!-- карточка 3 -->
+         <div class="whatdo_item_main">
+          <div class="whatdo_item">
+            <div class="whatdo_item_ico"><img class="ico" src="./img/ico/t4.png" alt=""></div>
+            <h4>Разработка дизайна</h4>
+            <br>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Repellendus dicta eum cumque perferendis sit
+            </p>
+
+          </div> 
+        </div>
+         <!-- карточка 4 -->
+         <div class="whatdo_item_main">
+          <div class="whatdo_item">
+            <div class="whatdo_item_ico"><img class="ico" src="./img/ico/t3.png" alt=""></div>
+            <h4>Техническое обслуживание</h4>
+            <br>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Repellendus dicta eum cumque perferendis sit
+            </p>
+
+          </div> 
+        </div>
+      
+      </div>
+ <!-- закрыли чем занимаеться whatdo-->
+
+ <!-- Завершенность -->
+ <div class="complete">
+   <div class="complete_item"> 
+     <div><h3>Опыт работы:</h3></div>
+     <div><p><span id="c_i_1"></span></p></div>  
+   </div>
+
+   <div class="complete_item">
+     <div><h3>Завершенных домов :</h3></div>
+      <div><p><span id="c_i_2"></span></p></div>
+    </div>
+   <div class="complete_item">
+     <div><h3>Завершенных ремонтов:</h3> </div>
+     <div> <p><span id="c_i_3"></span></p></div> 
+   </div>
+
+   <div class="complete_item">
+     <div><h3>Гарантия:</h3></div>     
+     <div><p><span id="c_i_4">3</span></p></div>
+   </div>
+
+ </div>
+ <!-- Завершенность -->
+
+  <!-- сфера деятельности -->
+      <div class="more_about">
+        <div class="more_about_left">
+          <div><h1>Причины обратиться к нам</h1></div>
+          <div>
+            <h3>Гарантия</h3>
+            <p>Мы предоставляем гарантию на выполненую работу</p>
+          </div>
+          <div>
+            <h3>Всегда на связи</h3>
+            <p>Наши специалисты всегда готовы проконсультировать Вас <br>
+                   и ответить на все вопросы</p>
+          </div>
+          <div>
+            <h3>Качество</h3>
+            <p>Строгий контроль на всех этапах</p>
+          </div>
+               
+        </div>
+        
+
+        <div class="more_about_right">
+          <div></div>
+          <div>
+            <h3>Твердая смета</h3>
+            <p>Стоимость не меняеться</p>
+          </div>
+          <div>
+            <h3>Участие в тендерах страны</h3>
+            <p>Мы выполняем государсвенные заказы</p>
+          </div>
+          <div>
+            <h3>Пунктуальность</h3>
+            <p id="form">Выполнение заказов в  согласованный срок</p>
+          </div>
+
+        </div>
+      </div>
+  <!--  закрыли сфера деятельности -->
+
+      
+
+
+<!-- мини банеры -->
+<div class="mini_banner_main" >
+  <div class="mini_banner_item mini_a" >
+    <h1>Остались вопросы?</h1>
+    <h3>Задайте их нам!</h3>
+    <p>Задать вопрос</p>
+    <div div class="link"> <a href="tel:+0955432532">Позвонить</a> </div>
+  </div>
+  
+  <div class="mini_banner_item mini_b">
+    <h3>Вы также можите оставить заявку: </h3>
+    <div class="tel_form">
+          <!-- форма телеграма -->
+      <form class="form_main"  autocomplete="off"  onsubmit="return ok_vailed() " action="telegram.php" method="POST">
+          <div class="form_main_item"> <p>Введите ваше имя:</p> <input type="text" id="val_name" name="user_name">      </div>
+          <div class="form_main_item"> <p>Введите свой телефон:</p> <input type="text" class="phone_mask" id="val_phone"  name="user_phone"> </div>  
+          <div class="form_main_item"> <p> Введи ваш емайл:</p> <input type="email" id="val_mail" name="user_mail">     </div> 
+          <div class="form_main_item"> <p>Укажите город:</p> <input type="text"  id="val_city" name="user_city">         </div> 
+          <div class="form_main_item"> <button class="btn" type="submit">отправить</button>               </div>
+          <!-- форма телеграмма закрыли -->
+      </form>
+    </div>
+
+
+    
+  </div>
+</div>
+
+<!-- мини банеры  закрыли-->
+
+
+
+
+
+
+
+<!-- клиенты -->
+<div class="our_clients">
+  <h2>Наши партнеры </h2>
+  <div class="our_clients_name"> 
+    <div class="our_clients_item"><img src="./img/firm/dewalt.svg" alt=""></div>
+    <div class="our_clients_item"><img src="./img/firm/milwaukee.svg" alt=""></div>
+    <div class="our_clients_item"><img src="./img/firm/dewalt.svg" alt=""></div>
+    <div class="our_clients_item"><img src="./img/firm/milwaukee.svg" alt=""></div>
+    <div class="our_clients_item"><img src="./img/firm/dewalt.svg" alt=""></div>
+    
+
+  </div>
+
+</div>
+<!-- клиенты закрыли -->
+
+  <footer>
+
+        <div>ссылки копирайт</div>
+         
+</footer>
+
+
+
+
+</div>
+  <script src="./libs/jquery/jquery-3.6.0.min.js"></script> 
+  <script src="./js/main.js"></script> 
+  <script src="./libs/vide/jquery.vide.min.js"></script>
+  <script src="./js/current_page.js"></script>
+  <script src="./js/preloader.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,1 @@
+$('a[href="' + document.location.href.split('/').pop() +  '"]').addClass('selected');

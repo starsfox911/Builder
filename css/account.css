@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.accont_background {
+    background:url(../img/img/jakub-skafiriak-AljDaiCbCVY-unsplash.jpg); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+
+}
+.block_for_card{
+    padding-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.card_main {
+    width: 100%;
+    background-color: rgb(214, 214, 214,0.7);
+    display: grid;
+    grid-column-gap:  2%;
+    margin-top: 2vw;
+    
+    grid-template-areas: 
+    "header header header header"
+    "img img info info"
+    "img img info info"
+    ;
+    position: relative;
+}
+.card_header{
+    text-align: center;
+    grid-area: header;
+  
+    height: 50px;
+
+}
+
+.card_img {
+    grid-area: img;
+    position: relative;
+    width: 100%;
+    height: 25vw;
+   
+    
+}
+.card_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+   
+}
+.card_info{
+    grid-area: info;
+
+}
